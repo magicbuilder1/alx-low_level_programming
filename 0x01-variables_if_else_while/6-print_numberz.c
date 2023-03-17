@@ -16,8 +16,8 @@ int main(void)
 int d;
 
 for (d = 10; d < '9'; d++)
-printf(d);
-printf('\n');
+putchar(d);
+putchar('\n');
 
 return (0);
 
