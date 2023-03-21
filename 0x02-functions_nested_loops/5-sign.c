@@ -2,9 +2,9 @@
 
 
 /**
- * print_sign - print the sign of a number
- * @c: the charater to be checked
- * Return: 1 for positive num  0 for nagative num or zero for  anything else
+ * print_sign - prints the sign of a number
+ * @n: the charater to be checked
+ * Return: 1 for positive num  -1 for nagative num or zero for  anything else
  */
 
 int print_sign(int n)
