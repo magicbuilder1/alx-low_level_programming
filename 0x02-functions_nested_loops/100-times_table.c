@@ -23,7 +23,7 @@ _putchar(' ');
 prod = num * nult;
 if (prod <= 99)
 _putchar(' ');
-if (prod <= 0)
+if (prod <= 9)
 _putchar(' ');
 if (prod >= 100)
 {
