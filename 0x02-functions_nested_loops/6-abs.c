@@ -3,7 +3,7 @@
 /**
  * _abs - computer the absolute value of an integer
  * @c: the number to be computed
- * Retrun: Absolute value of number of 0
+ * Return: Absolute value of number of c
  */
 
 int _abs(int c)
@@ -11,7 +11,7 @@ int _abs(int c)
 if (c < 0)
 {
 int _abs_val;
-abs_val = c * -1;
+_abs_val = c * -1;
 return (_abs_val);
 }
 return (c);
