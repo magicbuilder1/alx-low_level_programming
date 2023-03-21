@@ -18,7 +18,7 @@ for (num = 0; num <= n; num++)
 _putchar('0');
 for (nult = 1; nult <= n; nult++)
 {
-_putchar('.');
+_putchar(',');
 _putchar(' ');
 prod = num * nult;
 if (prod <= 99)
