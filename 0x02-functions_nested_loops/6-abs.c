@@ -3,7 +3,7 @@
 /**
  * _abs - computer the absolute value of an integer
  * @c: the number to be computed
- * Retrun: Absolute value of number of zero
+ * Retrun: Absolute value of number of 0
  */
 
 int _abs(int c)
