@@ -4,7 +4,7 @@
 /**
  * _islower - checks for lowercase character
  * @c: the charater to be checked
- * Return: 1 for lowercase character or 0 for anything else
+ * Return: 1 for alphabetic character or 0 for anything else
  */
 
 int _isalpha(int c)
