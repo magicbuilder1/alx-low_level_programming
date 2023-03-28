@@ -1,24 +1,18 @@
 #include "main.h"
 
 /**
- * char *_strcpy - a function that copies the string pointed to by SPC
- * @dest: copy to
- * @SPC:copy from
- * Return: string
+ * char *_strcpy - copy a string
+ * @dest: destination value
+ * @src: source value
+ * Return: the pointer to dest
  */
-char *_stricpy(char *dest, char *SPC)
+char *_strcpy(char *dest, char *src)
 {
-int l = 0;
-int x = 0;
-
-while (*(SPC + l) != '\0')
+int i;
+for (i = 0; src[i] != '\0'; i++)
 {
-l++;
+dest[i] = src[i];
 }
-for ( ; x < l ; x++)
-{
-dest[x] = SPC[x];
-}
-dest[l] = '\0';
+dest[i++] = '\0';
 return (dest);
 }
