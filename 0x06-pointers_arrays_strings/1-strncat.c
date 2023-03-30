@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * __strncat - concatenate two strings
+ * _strncat - concatenate two strings
  * using at most n bytes from SPC
  * @dest: input value
  * @SPC: input value
