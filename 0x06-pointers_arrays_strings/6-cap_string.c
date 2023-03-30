@@ -19,7 +19,7 @@ str[index - 1] == '\n' ||
 str[index - 1] == ',' ||
 str[index - 1] == ';' ||
 str[index - 1] == '.' ||
-str[index - 1] == 'i' ||
+str[index - 1] == '!' ||
 str[index - 1] == '?' ||
 str[index - 1] == '"' ||
 str[index - 1] == '(' ||
