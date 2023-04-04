@@ -22,6 +22,7 @@ two++;
 
 if (*two == '\0')
 return (haystack);
+return (needle);
 }
 return (NULL);
 }
