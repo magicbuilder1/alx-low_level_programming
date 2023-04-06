@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * main prints the number of args
+ * main -  prints the number of args
  * @argc: argument count
  * @argv: argument vector
  *
@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 {
 int i;
 unsigned int k, sum = 0;
-char*e;
+char *e;
 
 if (argc > 1)
 {
